@@ -113,14 +113,19 @@ hr {
 }
 .wilderNav a {
   text-decoration: none;
-  color: #e3c6ae;
+  color: #bf622a;
   padding: 0 5px;
   text-transform: uppercase;
 }
 .wilderNav a:hover {
   background-color: #bf622a;
+  color: #fff;
 }
-
+.colContainer {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+}
 .container {
   text-align: center;
 }
@@ -230,15 +235,7 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 img {
-  max-width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
+  
 }
 h1 {
   margin-left: 0;

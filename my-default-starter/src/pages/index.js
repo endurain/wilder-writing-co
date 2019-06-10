@@ -12,9 +12,7 @@ const IndexPage = () => (
     <div class="container">
       <h1>Greetings</h1>
       <p>Front Page Content here</p>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-      </div>
+      
     </div>
   </Layout>
 )
