@@ -8,6 +8,7 @@ const Header = ({ siteTitle }) => (
     style={{
       background: `#fff`,
       marginBottom: `1.45rem`,
+      padding: '2em 3em',
     }}
   >
   <Link
@@ -28,7 +29,7 @@ const Header = ({ siteTitle }) => (
 
         </h1>
       <div class="wilderNav">
-        <Link to="/about/">About</Link>
+        <Link to="/story/">Story</Link>
         <Link to="/services/">Services</Link>
         <Link to="/portfolio/">Portfolio</Link>
         <Link to="">Hot Off The Press</Link>
