@@ -1,6 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -49,6 +47,7 @@ const ContactPage = () => (
           <label for="start date">When is your ideal start date?</label>
           <input type="date" name="start date"/>
           <button class="contactButton">Send</button>
+          <p>*we respect your privacy and won't ever send you spam</p>
         </form>
       </div>
   </Layout>
