@@ -6,7 +6,7 @@ import Image from "../components/image"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#fff`,
+      background: `#ffe4c1`,
       marginBottom: `1.45rem`,
       padding: '2em 3em',
     }}
@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
       textDecoration: `none`,
     }}
   >
-    {siteTitle}
+  
     <div style={{ maxWidth: `200px`, }}>
       <Image />
     </div>
