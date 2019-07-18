@@ -8,23 +8,23 @@ const Header = ({ siteTitle }) => (
     style={{
       background: `#ffe4c1`,
       marginBottom: `1.45rem`,
-      padding: '2em 3em',
+      padding: '1em',
     }}
   >
-  <Link
-    to="/"
-    style={{
-      color: `white`,
-      textDecoration: `none`,
-    }}
-  >
-  
-    <div style={{ maxWidth: `200px`, }}>
-      <Image />
-    </div>
-  </Link>
-
     <div class="colContainer">
+      <div>
+        <Link
+          to="/"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          <div style={{ width: `200px`, }}>
+            <Image />
+          </div>
+        </Link>
+      </div>
       <div class="wilderNav">
         <Link to="/story/">Story</Link>
         <Link to="/services/">Services</Link>
