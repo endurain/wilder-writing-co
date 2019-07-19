@@ -64,6 +64,15 @@ img {
 }
 .card {
   flex: 0 1 24%;
+  padding: 1rem;
+  border: 1px solid #E3C6AE;
+  box-shadow: 0 0 10px #E3C6AE;
+}
+.card:hover {
+  box-shadow: inset 0 0 10px #BF622A;
+}
+.card h3 {
+  color:#BF622A;
 }
 /*contact form styles*/
 .formContainer {

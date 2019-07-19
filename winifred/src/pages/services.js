@@ -30,9 +30,9 @@ const ServicesPage = () => (
           <h3>Product Descriptions</h3>
           <p>No matter how short, how long, or how many, your product descriptions will be uniform in brand voice and identity, but showcase each unique product with individuality and expertise.</p>
         </div>
-        
+
       </div>
-    <Link to="/">Go back to the homepage</Link>
+
   </Layout>
 )
 
