@@ -47,7 +47,7 @@ const ContactPage = () => (
           <label for="start date">When is your ideal start date?</label>
           <input type="date" name="start date"/>
           <button class="contactButton">Send</button>
-          <p>*we respect your privacy and won't ever send you spam</p>
+          <p>*we respect your privacy and will never send you spam</p>
         </form>
       </div>
   </Layout>
