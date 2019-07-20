@@ -152,6 +152,11 @@ form {
 .container {
   text-align: center;
 }
+/*footer styles*/
+.column-3 {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 button,
 optgroup,
@@ -270,19 +275,6 @@ h1, h2, h3 {
   font-size: 1.8rem;
   line-height: 1.1;
 }
-
-ul {
-  margin-left: 1.45rem;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  list-style-position: outside;
-  list-style-image: none;
-}
 p {
   margin-left: 0;
   margin-right: 0;
@@ -292,6 +284,12 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+}
+
+@media only screen and (max-width:1000px) {
+  .column-3 {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 480px) {
