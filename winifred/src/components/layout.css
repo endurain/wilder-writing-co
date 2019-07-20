@@ -16,26 +16,6 @@ body {
 p, h1, h3, a, input {
   font-family: Open Sans;
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
-}
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-}
 
 [hidden],
 template {
@@ -147,7 +127,7 @@ form {
   align-items: baseline;
   margin: 0 auto;
   max-width: 1200px;
-  padding: 1.45rem 1.0875rem;
+  padding: .2rem 1.0875rem .1rem;
 }
 .container {
   text-align: center;
@@ -197,14 +177,6 @@ fieldset {
   border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
-}
-legend {
-  box-sizing: border-box;
-  color: inherit;
-  display: table;
-  max-width: 100%;
-  padding: 0;
-  white-space: normal;
 }
 textarea {
   overflow: auto;
