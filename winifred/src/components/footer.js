@@ -1,7 +1,5 @@
-
-import PropTypes from "prop-types"
 import React from "react"
-import Image from "../components/image"
+
 
 const Footer = ({ siteTitle }) => (
   <footer
