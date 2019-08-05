@@ -1,5 +1,5 @@
 import React from "react"
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -14,7 +14,9 @@ export default ({ data }) => {
       <h4>Posts</h4>
       {data.allWordpressPost.edges.map(({ node }) => (
         <div key={node.slug} className={"post"}>
-          <p>{node.title}</p>
+          <Link to={'post/' + node.slug}>
+            <p>{node.slug}</p>
+          </Link>
           <div dangerouslySetInnerHTML={{ __html: node.excerpt }} />
         </div>
       ))}
