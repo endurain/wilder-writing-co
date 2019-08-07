@@ -17,13 +17,15 @@ const Post = ({ data }) => {
 }
 export const query = graphql`
   query($pathSlug: String!) {
-    markdownRemark(frontmatter: { path: {eq: $pathSlug} }) {
-      html
-      frontmatter {
-        date
+    allWordpressPost {
+    edges {
+      node {
+        id
         title
+        content
       }
     }
   }
+}  
 `
 export default Post
